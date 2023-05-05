@@ -1,4 +1,4 @@
-let ip,time,arr=[];
+let ip,time,arr=[],hostname;
 let latitude = document.getElementById('latitude');
 let longitude = document.getElementById('longitude');
 let city = document.getElementById('city');
@@ -55,6 +55,7 @@ async function fetchData(){ //get json data for the ip gotten previously
         zone.innerText += ' '+data.timezone;
         latitude.innerText += ' '+locArr[0];
         longitude.innerText += ' '+locArr[1];
+        host.innerText += ' '+hostname;
 
         displaymap(locArr[0],locArr[1]);
         pin += data.postal;
