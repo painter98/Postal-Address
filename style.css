@@ -1,0 +1,50 @@
+body{
+    margin:5vw;
+}
+
+#filter{
+    width:81vw;
+    height:5vh;
+    padding:0 5vh;
+    position:relative;
+}
+#filter:focus{
+    outline:none;
+}
+
+iframe{
+    width:100%;
+    height:50%;
+}
+
+#second{
+    display:none;
+}
+
+table{
+    width:100vw;
+}
+
+#cards{
+    display:flex;
+    flex-flow:wrap;
+    gap:2vw;
+    padding:3vw;
+    justify-content: center;
+}
+#container{
+    border:1px solid black;
+    width:500px;
+    padding:2vw;
+}
+
+.material-icons{
+    position:relative;
+    top:2.2rem;
+    left:1%;
+    z-index:3;
+}
+
+body div,td,tr{
+    padding:1vw;
+}

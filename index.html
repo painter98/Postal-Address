@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <div id="first">
+        <h1 id="heading1">MY Public IP ADDRESS :</h1>
+        <button onclick="nextPage()">Get Data</button>
+    </div>
+    <div id="second">
+        <h2 id="heading2">MY Public IP ADDRESS :</h2>
+        <div id="thisdata">
+            <table>
+                <tr>
+                    <td id="latitude">Lat:</td>
+                    <td id="city">City:</td>
+                    <td id="org">Organisation:</td>
+                </tr>
+                <tr>
+                    <td id="longitude">Long:</td>
+                    <td id="reg">Region:</td>
+                    <td id="host">HostName:</td>
+                </tr>
+            </table>
+        </div>
+        <div class="section2">
+            <div id="zone">Time Zone: </div>
+            <div id="date">Date and Time: </div>
+            <div id="pincode">Pincode: </div>
+            <div id="msg">Message: </div>
+        </div>
+        
+        <span class="material-icons">search</span><input id="filter" type="text" placeholder="Filter">
+        <select id="sort">
+            <option value="">sort by</option>
+            <option value="Name">Name</option>
+            <option value="branchoffice">Branch Type</option>
+        </select>
+        <div id="cards"></div>
+    </div>
+    <script src=
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script src="./script.js" type="text/javascript"></script>
+</body>
+</html>
