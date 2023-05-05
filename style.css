@@ -2,6 +2,12 @@ body{
     margin:5vw;
 }
 
+#first button{
+    background-color:black;
+    color:white;
+    padding:1vw 2vw;
+}
+
 #filter{
     width:81vw;
     height:5vh;
